@@ -25,7 +25,28 @@
         android:hint="Insira Seu E-mail"
         android:inputType="textEmailAddress"
         android:maxLength="80"
-        android:padding="20sp" />
+        android:padding="20sp"
+        android:layout_margin="20sp"/>
+
+    <EditText
+        android:id="@+id/EdtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/baseline_lock"
+        android:hint="Insira Sua Senha"
+        android:inputType="textPassword"
+        android:maxLength="80"
+        android:padding="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Esqueceu sua senha?"
+        android:id="@+id/txtEsqueceuSenha"
+        android:layout_gravity="end"
+        android:layout_marginRight="20sp" />
 
 
 </LinearLayout>
